@@ -25,25 +25,23 @@
       color: black;
     }
 
-    .b-img {
-      height: 500px;
-    }
+ 
   </style>
 
 </head>
 
 <body>
 
-  <nav class="navbar navbar-expand-lg bg-body-tertiary ">
-    <div class="container">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top ">
+    <div class="container-fluid">
       <a class="navbar-brand  " href="index.html"><img class="logo" src="./images/arun-icecream-logo.png" alt=""
-          style="height: 90PX;"></a>
+          style="width: 120px;"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0  ">
+      <div class="collapse navbar-collapse p-lg-0" id="navbarSupportedContent">
+        <ul class="navbar-nav  justify-content-center flex-grow-1 pe-3 gap-3 align-items-center">
           <li class="nav-item">
             <a class="nav-link " href="#">Home</a>
           </li>
@@ -94,8 +92,8 @@
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" class="bg-dark"
         aria-label="Slide 3"></button>
     </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active" data-bs-interval="1000">
+    <div class="carousel-inner caro-in">
+      <div class="carousel-item active " data-bs-interval="1000">
         <img src="./images/sandwich-banner.jpg" class="b-img" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h5>SANDWICH</h5>
@@ -129,31 +127,31 @@
 
 
     <!-- Button trigger modal -->
-    <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-      Feedback
+    <button type="button" class="btn btn-secondary m-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      <i class="fa-solid fa-2x fa-comment"></i>
     </button>
 
     <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="container bg-secondary">
             <div class="modal-body">
               <div class="ms-auto"> <button type="button" class="btn-close" style="margin-left: 90%;"
                   data-bs-dismiss="modal" aria-label="Close"></button></div>
-              <h4 style="text-align: center;">Feedback.........</h4>
+              <h4 style="text-align: center;margin-bottom: 30px;">Feedback.........</h4>
               <form action="">
-                <input type="text" placeholder="Name here" required="" style="border: none;">
+                <input type="text" placeholder="Name here" required="" style="border: none;outline: none;">
                 <hr>
-                <input type="tel" placeholder="Phone number" required="" style="border: none;">
+                <input type="tel" placeholder="Phone number" required="" style="border: none;outline: none">
                 <hr>
-                <input type="date" required="" style="border: none;">
+                <input type="date" required="" style="border: none;outline: none" >
                 <hr>
-                <textarea name="" id="" cols="50" rows="5" placeholder="tell somthing..." required=""
-                  style="border: none;"></textarea>
+                <textarea name="" id="" cols="40" rows="5" placeholder="tell somthing..." required=""
+                  style="border: none;outline: none; " ></textarea><hr>
 
 
-                <button type="button" class="btn btn-dark">Submit</button>
+                <div style="text-align: center;"><button type="button" class="btn btn-dark" >Submit</button></div>
 
               </form>
             </div>
@@ -177,7 +175,7 @@
             the convenience of a drinkable shake, so you <br>
             can grab a pouch and treat yourself, on the go. </p>
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-12 m-0 p-0">
+        <div class="col-lg-6 col-md-6 col-sm-12 m-0 p-0 bottle-r">
           <img src="./images/shake-all-bottle-right.png" alt="" class="w-100">
         </div>
       
