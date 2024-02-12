@@ -1,16 +1,41 @@
+
+
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Arapey', serif;
+    p,
+    h5 {
+      color: black;
+    text-transform: capitalize;
+    font-family: 'Arapey', serif;
+    font-style: bold;
+    }
 }
+h1{
+    font-family: 'Arapey', serif;
+    font-style: italic;
+    color: #e82429;
+    font-size: 29px;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 10px;
+   
+}
+
 .b-img {
     height: 500px;
     width: 100%;
+    
   }
  .m-btn{
     border-radius: 50%;
     position: fixed;
     margin-left: 50px;
     margin-top:-50px;
+    border: none;
+    z-index: 1;
     transition: 1s;
  }
  .m-btn:hover{
@@ -23,6 +48,9 @@ body{
         height: 200px;
         margin-top: 60px;
     }
+    .p-img{
+        display: none;
+    }
 }
 
 .caro-in{
@@ -34,6 +62,166 @@ body{
 }
 
 .bottle-r:hover{
-    transform: scale(1.2);
+    transform: scale(1.05);
     filter:drop-shadow(rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset) ;
 }
+
+.b{
+    color: #A6A8AB;
+    text-transform: capitalize;
+    font-family: 'Arapey', serif;
+    font-style: bold;
+    font-size: 1.09rem;
+}
+
+.d-item{
+    color: #A6A8AB;
+    text-transform: capitalize;
+    font-family: 'Arapey', serif;
+    font-style: bold; 
+}
+
+.bt-you{
+
+    
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+    margin-right: 10px;
+    text-decoration: none;
+    
+}
+
+ .bt-ins{
+   
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+    margin-right: 50px;
+    text-decoration: none;
+ }
+
+
+
+
+    
+
+
+  /*----------------------------------------------------- product-start------------------------------------------------ */
+
+  .product{
+    
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
+   
+  }
+
+  .p-title{
+    color:  #A6A8AB;
+    text-transform: capitalize;
+    font-family: 'Arapey', serif; 
+    font-style: italic;   
+    font-size: 29px;    
+    text-align: center;    
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+ }
+
+ .p-content{
+    text-align: center;
+    justify-content: center;
+    
+
+ }
+
+ .p-content-img{ 
+    margin-left:25%;
+ }
+
+ .p-btn{
+
+
+    font-size: 1.09rem;
+    font-weight: 400;
+    font-style: bold; 
+    text-align: center;
+    
+    background: #ebeef1;
+    cursor: pointer;
+    border: none;
+    color: #e82429;
+    border-radius: 50px;
+    box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+                inset -10px -10px 10px -1px rgba(255,255,255,0.70);
+ }
+
+ .p-btn-div {
+    align-items: center;
+    text-align: center;
+ }
+
+ 
+.card{
+    border: none;
+}
+
+.p-btn-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+ /*-------------------------------------------- product-end ---------------------------------------------------------------*/
+
+ /*-------------------------------------------- media-start-------------------------------------------------------------- */
+.media-img{
+    width: 100%;
+    display: block;
+}
+
+.media-btn{
+    width: max-content!important;
+}
+
+.media{
+    position: unset;
+}
+
+.media-btn.active img{
+    border: 1px solid red;
+}
+
+
+/*------------------------------------------ media-end----------------------------------------------------------------- */
+
+/*----------------------------------------- about-start----------------------------------------------------------------- */
+
+.about{
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.abt-img{
+   margin-left: 25%;
+}
+
+/*---------------------------------------------- about-end------------------------------------------------------------ */
+
+/* ----------------------------------------------contact-------------------------------------------------------------- */
+
